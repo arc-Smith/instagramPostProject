@@ -1,0 +1,127 @@
+.theLikes{
+  margin-left: 4%;
+}
+button{
+  margin-left: 1%;
+  margin-top: 4%;
+}
+.commentHolder{
+  width: 250px;
+  height: 100%;
+  margin-top: 2%;
+}
+p{
+  display: block;
+  text-align: left;
+}
+#post{
+  border: 1px solid black;
+  float: left;
+}
+#heart, #comment, #dm{
+  background-color: transparent;
+  color: black;
+}
+.commentBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50,50,50,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .commentBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.25s;
+  }
+  .commentFront{
+    background-color: white;
+    width: 40%;
+    height: 275px;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 2.5%;
+    border: solid rgb(50,50,50);
+  }
+.thePost{
+  position: absolute;
+}
+.theUser{
+  margin-left: 50%;
+}
+.comments{
+  margin-left: 45%;
+  width: 50%;
+/*   border: 1px solid green; */
+}
+.aLine{
+  margin-top: 5%;
+}
+.modalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50,50,50,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.25s;
+  }
+  .modalFront{
+    background-color: white;
+    width: 40%;
+    height: 275px;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 2.5%;
+    border: solid rgb(50,50,50);
+  }
+.close{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .close:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+#searchbar{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      width: 70%;
+  }
+  #searchbar[type=text]{
+      -webkit-transition: 0.15s ease-in-out;
+      transition: 0.15s ease-in-out;
+  }
+#followers{
+    opacity: 0.95;
+    width: 70%;
+    height: 150px;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 1.25em;
+    background-color: transparent;
+
+/*     display: none; */
+  }
+  .follower{
+    list-style-type: none;
+    display: list-item;
+    color: black;
+    text-align: left;
+    background-color: transparent;
+  }
