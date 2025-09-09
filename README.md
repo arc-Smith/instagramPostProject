@@ -1,6 +1,6 @@
 # Instagram Post Project
 
-I designed and built this project to serve as a hands-on exercise for students in a web development course. It was created to provide a working model that we could rebuild together, allowing students to apply key concepts in a guided, practical setting..
+I designed and built this project to serve as a hands-on exercise for students in a web development course. It was created to provide a working model that we could rebuild together, allowing students to apply key concepts in a guided, practical setting.
 
 ---
 
