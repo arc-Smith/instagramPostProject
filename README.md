@@ -1,7 +1,6 @@
 # Instagram Post Project
 
-<img width="798" height="306" alt="Screenshot 2025-09-09 at 4 20 03 PM" src="https://github.com/user-attachments/assets/bc739f97-0eb0-43f9-80fd-51589836998d" />
-
+<img width="803" height="309" alt="Screenshot 2025-09-09 at 4 21 40 PM" src="https://github.com/user-attachments/assets/f0bd8384-62fa-43a5-9988-65131b8be21b" />
 
 I designed and built this project to serve as a hands-on exercise for students in a web development course. It was created to provide a working model that we could rebuild together, allowing students to apply key concepts in a guided, practical setting.
 
